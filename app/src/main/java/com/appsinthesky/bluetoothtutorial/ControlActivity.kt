@@ -35,7 +35,7 @@ class ControlActivity : AppCompatActivity() {
         lv.adapter = adapter
 
         sendCommand("maze#");
-
+        Log.d("test branch: ", "123")
         control_led_on.setOnClickListener { sendCommand("a") }
         control_led_off.setOnClickListener { sendCommand("b") }
         control_led_disconnect.setOnClickListener { disconnect() }
