@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:background="#2233">
+
+
+    <LinearLayout
+        android:id="@+id/meniuLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginTop="@dimen/mTopMeniuPoza"
+            android:layout_width="@dimen/latimePozaMeniu"
+            android:layout_height="@dimen/inaltimePozaMeniu"
+            app:srcCompat="@drawable/android_logo"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/latimePozaMeniu"
+            android:layout_height="@dimen/inaltimePozaDoiMeniu"
+            app:srcCompat="@drawable/arduino_logo"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/button_MAZE"
+            android:layout_width="@dimen/widthMeniu"
+            android:layout_height="@dimen/heightMeniu"
+            android:layout_marginTop="@dimen/mTopRezolva"
+            android:background="@color/blue1"
+            android:text="@string/rezolva_maze"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/textMeniu" />
+
+        <Button
+            android:id="@+id/button_TELE"
+            android:layout_width="@dimen/widthMeniu"
+            android:layout_height="@dimen/heightMeniu"
+            android:text="@string/telecomanda"
+            android:textColor="@color/negro"
+            android:layout_marginTop="@dimen/mTopButMeniu"
+            android:textSize="@dimen/textMeniu"
+            android:background="@color/blue2"/>
+
+        <Button
+            android:id="@+id/buttonConectare"
+            android:layout_width="@dimen/widthMeniu"
+            android:layout_height="@dimen/heightMeniu"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue1"
+            android:text="Conectare Bluetooth"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/textMeniu" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin1">500px</dimen>
+    <dimen name="activity_vertical_margin1">500px</dimen>
+    <dimen name="activity_horizontal_margin2">300px</dimen>
+    <dimen name="activity_vertical_margin2">300px</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin3">570px</dimen>
+    <dimen name="button_dimension">100dp</dimen>
+    <dimen name="arrows_margin">50dp</dimen>
+    <dimen name="stop_button">30sp</dimen>
+    <dimen name="heightMeniu">80dp</dimen>
+    <dimen name="widthMeniu">300dp</dimen>
+    <dimen name="textMeniu">30sp</dimen>
+    <dimen name="mTopRezolva">150dp</dimen>
+    <dimen name="mTopButMeniu">10dp</dimen>
+    <dimen name="mTopMeniuPoza">50dp</dimen>
+    <dimen name="latimePozaMeniu">350dp</dimen>
+    <dimen name="inaltimePozaMeniu">200dp</dimen>
+    <dimen name="inaltimePozaDoiMeniu">100dp</dimen>
+    <dimen name="textTerminal">30sp</dimen>
+
+</resources>

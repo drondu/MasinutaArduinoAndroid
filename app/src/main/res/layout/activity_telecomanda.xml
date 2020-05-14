@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telecomanda">
+    <Button
+        android:id="@+id/disconnect_telecomanda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disconnect"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/arrows_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp">
+            <Button
+                android:id="@+id/button_sus"
+                android:layout_width="@dimen/button_dimension"
+                android:layout_height="@dimen/button_dimension"
+                android:background="@drawable/sus_custom" />
+            <Button
+                android:id="@+id/button_rotate"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/rotatee"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_stanga"
+                android:layout_width="@dimen/button_dimension"
+                android:layout_height="@dimen/button_dimension"
+                android:background="@drawable/stanga_custom"/>
+
+            <Button
+                android:id="@+id/button_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/stop_button"
+                android:text="Stop" />
+
+            <Button
+                android:id="@+id/button_dreapta"
+                android:layout_width="@dimen/button_dimension"
+                android:layout_height="@dimen/button_dimension"
+                android:background="@drawable/dreapta_custom" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_jos"
+            android:layout_width="@dimen/button_dimension"
+            android:layout_height="@dimen/button_dimension"
+            android:background="@drawable/jos_custom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terminal: "
+            android:textSize="20sp"
+            android:textColor="@color/negro"
+            android:layout_marginTop="10sp"/>
+
+        <ListView
+            android:stackFromBottom="true"
+            android:transcriptMode="normal"
+            android:id="@+id/lista_tele"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            />
+    </LinearLayout>
+
+
+
+</FrameLayout>
+

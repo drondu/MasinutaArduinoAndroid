@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Masinuta Zburatoare, are aripi, zboara tare</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="title_devices">Devices</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan">Scan</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="telecomanda">Telecomanda</string>
+    <string name="rezolva_maze">Rezolva MAZE</string>
+</resources>
